@@ -1,0 +1,28 @@
+.introduction {
+    font-family: 'Synthetix Regular', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 2rem;
+    /* margin-top: -1.5rem; */
+}
+
+.introduction-heading {
+    font-family: "Oswald", sans-serif;
+    font-size: 4vw;
+    /* Adjust the heading size dynamically */
+    font-weight: bold;
+    /* margin-bottom: 1rem; */
+    /* Add space below the heading */
+    margin: 0;
+    padding: 0;
+
+}
+
+.introduction-description {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    /* Adjust the description text size */
+    line-height: 1.5;
+    /* Improve readability with proper line spacing */
+    color: rgba(255, 255, 255, 1);
+    /* Use a subtle color for the description */
+}
