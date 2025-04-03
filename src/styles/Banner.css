@@ -1,34 +1,24 @@
 .banner {
     display: flex;
-
-    /* Stack elements vertically */
     align-items: center;
     justify-content: center;
     font-family: 'Synthetix Regular';
     color: rgba(35, 31, 32, 1);
     margin-top: 3%;
-
-    /* Added a gap between ANAT{image}OME and the text area (UPDATED) */
 }
 
 .text {
     font-size: 20vw;
-    /* Dynamically adjust text size based on viewport width */
     flex-shrink: 1;
-    /* Allow text to shrink if necessary */
     margin: 0;
-    /* Ensures no extra margin is applied */
 }
 
 .image-container {
     position: relative;
     width: 15vw;
-    /* The image width scales with the viewport width */
     height: 17vw;
-    /* Adjusted height slightly for a better aspect ratio */
     overflow: hidden;
     flex-shrink: 1;
-    /* Allow image to shrink if necessary */
 }
 
 .image-container img {
@@ -36,14 +26,11 @@
     top: 0;
     left: 0;
     width: 100%;
-    /* Image takes up the entire container */
     height: 100%;
     opacity: 0;
     transition: opacity 1s ease-in-out;
-    /* Smooth transition between images */
 }
 
 .image-container img.active {
     opacity: 1;
-    /* Show the active image */
 }

@@ -9,7 +9,7 @@ function HomePageProductDisplay({ heading, description, products }) {
       <p className="product-display-description">{description}</p>
       <div className="cards-container">
         {products.map((product) => (
-          <ProductCard key={product.id} product={product} />
+          <ProductCard key={product.productId} product={product} />
         ))}
       </div>
       <button

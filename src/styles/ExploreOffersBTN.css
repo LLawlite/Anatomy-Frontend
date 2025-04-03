@@ -1,29 +1,26 @@
 .flex-container {
     display: flex;
-    /* Enables Flexbox layout */
     justify-content: flex-end;
     margin-top: 20px;
-
-    /* Full viewport height */
     padding-right: 20px;
-    /* Optional: Adjust spacing from the edge */
 }
 
 .explore-button {
     background-color: rgba(245, 235, 227, 1);
     font-family: "Oswald", sans-serif;
     font-weight: 700;
-    /* Button color */
     color: rgba(0, 0, 0, 1);
     border: none;
     padding: 10px 20px;
-
     cursor: pointer;
     font-size: 24px;
     font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* Smooth transition */
 }
 
 .explore-button:hover {
-    background-color: #9a9a9a;
-    /* Darker shade on hover */
+    background-color: rgb(104, 245, 224);
+    /* Background turns green */
+    color: white;
 }

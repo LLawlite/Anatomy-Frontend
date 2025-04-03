@@ -1,11 +1,23 @@
 import React from 'react';
 import '../styles/ProductCard.css';
+
 function ProductCard({ product }) {
   return (
     <div className="card">
-      <img src={product.image} alt={product.name} className="product-image" />
-      <h3 className="product-name">{product.name}</h3>
-      <p className="product-mrp">{product.mrp}/- Only</p>
+      {/* Primary Image */}
+      <img src={product.image} alt="Product" className="product-image" />
+
+      {/* Secondary Image for Hover Effect */}
+      {product.secondaryImage && (
+        <img
+          src={product.secondaryImage}
+          alt="Product Hover"
+          className="secondary-image"
+        />
+      )}
+
+      <h3 className="product-name">{product.productName}</h3>
+      <p className="product-mrp">{product.price}/- Only</p>
     </div>
   );
 }

@@ -1,0 +1,141 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: black;
+    color: white;
+    padding: 40px 80px;
+    /* border: 2px solid red; */
+}
+
+.footer-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Left Section */
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.tagline {
+    font-size: 14px;
+    color: #aaa;
+    margin: 0;
+}
+
+.connect {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    font-size: 24px;
+}
+
+.icon {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.icon:hover {
+    color: #e63946;
+}
+
+/* Middle Section */
+.about-text {
+    font-size: 14px;
+    color: #ddd;
+    margin-bottom: 10px;
+}
+
+.quick-links {
+    display: flex;
+    gap: 40px;
+    margin: 0;
+
+
+}
+
+.quick-links h3 {
+    margin: 0;
+}
+
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.quick-links li {
+    margin: 5px 0;
+}
+
+.quick-links a {
+    color: #aaa;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.quick-links a:hover {
+    color: #e63946;
+}
+
+/* Right Section */
+.footer-section h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.footer-aboutus {
+    margin: 0;
+
+}
+
+.footer-section-middle {
+    flex: 1;
+    max-width: 400px;
+    /* Adjust based on layout */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.about-text {
+    font-size: 14px;
+    color: #ddd;
+    margin-bottom: 10px;
+    white-space: normal;
+    /* Ensures text wraps */
+    line-height: 1.5;
+    /* Improves readability */
+}
+
+.quick-links-h3 {
+    margin: 0;
+}
+
+@media (max-width: 1075px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        /* Center-align content */
+        text-align: center;
+        /* Ensure text is centered */
+        padding: 40px 20px;
+        /* Adjust padding */
+    }
+
+    .quick-links {
+        justify-content: center;
+    }
+
+
+}
