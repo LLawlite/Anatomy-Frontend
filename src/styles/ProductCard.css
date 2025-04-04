@@ -41,3 +41,30 @@
 .collection-card {
     width: 22%;
 }
+
+/* Mobile Devices */
+@media (max-width: 767px) {
+    .collection-card {
+        /* Mobile-specific styles here */
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .collection-card {
+        /* Mobile-specific styles here */
+        width: 46%;
+    }
+}
+
+/* Desktop and up */
+/* @media (min-width: 1025px) {
+    .your-class { */
+/* Desktop-specific styles here */
+/* }
+} */
