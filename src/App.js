@@ -6,6 +6,7 @@ import LoginPage from './Pages/LoginPage';
 import ProfilePage from './Pages/ProfilePage';
 import CartPage from './Pages/CartPage';
 import ImageUpload from './components/ImageUpload';
+import CollectionPage from './Pages/CollectionPage';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/profile" element={<ProfilePage />} />
         <Route path="/cart" element={<CartPage />} />
         <Route path="/upload" element={<ImageUpload />} />
+        <Route path="/collection/:categoryId" element={<CollectionPage />} />
       </Routes>
     </Router>
   );

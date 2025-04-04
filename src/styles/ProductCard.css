@@ -4,6 +4,9 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 10px;
     position: relative;
+    font-family: Montserrat;
+    color: rgba(255, 255, 255, 1);
+
 }
 
 .product-image {
@@ -33,4 +36,8 @@
 .card:hover .secondary-image {
     opacity: 1;
     /* Show secondary image on hover */
+}
+
+.collection-card {
+    width: 22%;
 }

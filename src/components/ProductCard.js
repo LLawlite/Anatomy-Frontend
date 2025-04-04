@@ -1,9 +1,9 @@
 import React from 'react';
 import '../styles/ProductCard.css';
 
-function ProductCard({ product }) {
+function ProductCard({ product, collectionPage }) {
   return (
-    <div className="card">
+    <div className={`card ${collectionPage ? 'collection-card' : ''}`}>
       {/* Primary Image */}
       <img src={product.image} alt="Product" className="product-image" />
 
